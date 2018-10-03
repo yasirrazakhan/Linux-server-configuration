@@ -3,7 +3,8 @@
 In this project we will deploy an exiting application to linux server and configure it
 
 final url for application is http://18.185.99.217/
-SSH PORT: 2200
+
+`SSH PORT: 2200`
 
 
 ## Instructions for ssh access on local machine
