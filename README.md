@@ -58,14 +58,14 @@ final url for application is http://18.185.99.217/
 
 Configure Firewall to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
 
-	sudo ufw allow ssh
+	`sudo ufw allow ssh
   sudo ufw allow www
   sudo ufw allow ntp
   sudo ufw allow 2200/tcp
 	sudo ufw allow 80/tcp
 	sudo ufw allow 123/udp
 	sudo ufw enable 
-  sudo ufw status
+  sudo ufw status`
  
 ## Configure timezone to UTC
 
