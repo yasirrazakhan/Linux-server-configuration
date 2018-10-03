@@ -170,7 +170,7 @@ sudo ufw allow ssh`
 	```
   Restart server using sudo service apache2 restart
   
-##RESOURCES
+## RESOURCES
 
 UDACITY CLASSROOM FORUM
 https://www.vultr.com/docs/how-to-configure-ufw-firewall-on-ubuntu-14-04
