@@ -5,7 +5,7 @@ In this project we will deploy an exiting application to linux server and config
 final url for application is http://18.185.99.217/
 
 
-## Instructions for SSH access 
+## Instructions for ssh access on local machine
 
 1. Download Private Key from the on Amazon Lightsail.
 2. Move the private key file into the folder `~/.ssh` (where ~ is your environment's home directory). 
@@ -13,13 +13,13 @@ final url for application is http://18.185.99.217/
 4. In your terminal, type in
 	```ssh -i ~/.ssh/Lightsail-key.pem ubunut@address```
 
-## Create a new user named grader
+## Create user grader
 
 1. `sudo adduser grader`
-2. `sudo vi /etc/sudoers`
+2. `sudo nano /etc/sudoers`
 3. `sudo touch /etc/sudoers.d/grader`
-4. `sudo vi /etc/sudoers.d/grader` 
-5.  Type in `grader ALL=(ALL:ALL) NOPASSWD:ALL`
+4. `sudo nano /etc/sudoers.d/grader` 
+5.  Type this in `grader ALL=(ALL:ALL) NOPASSWD:ALL`
 
 ## Set ssh login using keys
 
@@ -57,15 +57,16 @@ final url for application is http://18.185.99.217/
 ## Configure Firewall (UFW)
 
 Configure Firewall to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
-
-	`sudo ufw allow ssh
-  sudo ufw allow www
-  sudo ufw allow ntp
-  sudo ufw allow 2200/tcp
-	sudo ufw allow 80/tcp
-	sudo ufw allow 123/udp
-	sudo ufw enable 
-  sudo ufw status`
+`
+sudo ufw allow ssh`
+    `sudo ufw allow www`
+`sudo ufw allow ntp`
+  `sudo ufw allow 2200/tcp`
+	`sudo ufw allow 80/tcp`
+	`sudo ufw allow 123/udp`
+	`sudo ufw enable` 
+  `sudo ufw status`
+  `
  
 ## Configure timezone to UTC
 
@@ -167,5 +168,3 @@ Configure Firewall to only allow incoming connections for SSH (port 2200), HTTP 
 	```
   Restart server using sudo service apache2 restart
   
-## References:
-1. Udacity's FSND Forum
