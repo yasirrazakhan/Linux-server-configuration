@@ -173,6 +173,7 @@ sudo ufw allow ssh`
 ## RESOURCES
 
 UDACITY CLASSROOM FORUM
+
 https://www.vultr.com/docs/how-to-configure-ufw-firewall-on-ubuntu-14-04
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
