@@ -2,7 +2,7 @@
 
 In this project we will deploy an exiting application to linux server and configure it
 
-Final url for application is http://ec2-18-185-99-217.eu-central-1.compute.amazonaws.com/catalog
+Final url for application is http://ec2-18-185-99-217.eu-central-1.compute.amazonaws.com
 `SSH PORT: 2200`
 
 
@@ -14,7 +14,7 @@ Final url for application is http://ec2-18-185-99-217.eu-central-1.compute.amazo
 
 In this project we will deploy an exiting application to linux server and configure it
 
-Final url for application is http://ec2-18-185-99-217.eu-central-1.compute.amazonaws.com/catalog
+Final url for application is http://ec2-18-185-99-217.eu-central-1.compute.amazonaws.com
 `SSH PORT: 2200`
 
 
